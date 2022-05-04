@@ -2,7 +2,7 @@
 
 ![logo](https://user-images.githubusercontent.com/44628918/166712172-ba85c63d-27d2-47cd-b3fa-ba052acedbef.png)
 
-**How to use it ?**
+# How to use it ?
 1、Run the software as follows
  ![1](https://user-images.githubusercontent.com/44628918/166712681-7ce77177-7ba8-422d-b686-e8e0fadbe108.png)
 2、Initialize the environment, select the template file
@@ -14,7 +14,10 @@
 5、Click the start button to perform real-time motion correction of the image
 ![image](https://user-images.githubusercontent.com/44628918/166713649-4cc5615d-bfa4-4a98-8e0c-e90033b4f73d.png)
 
-**Software Environment Construction Guide**
+
+
+# Software Environment Construction Guide
+
 1、	Install anaconda
 2、	Install the GPU driver and the corresponding cuda version. For example: GTX1060 driver and cuda 10.2
 3、	Open pytorch.org and use conda to install the corresponding version. For example: conda install pytorch==1.7.0 torchvision==0.8.0 torchaudio==0.7.0 cudatoolkit=10.2 -c pytorch
@@ -46,9 +49,9 @@ LIBS += 'D:\ProgramData\Anaconda3\libs\python37_d.lib'
 
 
 
-The problems encountered are as follows:
-1、	Line 448 of object.h
- 
+# The problems encountered are as follows:
+**1、	Line 448 of object.h**
+ ![image](https://user-images.githubusercontent.com/44628918/166713906-cb49afdd-53d0-44a7-a7f3-b202beb94c38.png)
 The reason is that slots in python's object.h conflict with Qt's Slot.
 solution:
 Original:
@@ -70,7 +73,7 @@ typedef struct{
     #define slots Q_SLOTS　　// The restoration of the slots macro definition here is consistent with that in QObjectDefs.h in QT
 } PyType_Spec;
 
-2、	he import_array function reports an error
+**2、	he import_array function reports an error**
 {
 import_array();
 }
