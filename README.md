@@ -2,7 +2,8 @@
 
 ![logo](https://user-images.githubusercontent.com/44628918/166712172-ba85c63d-27d2-47cd-b3fa-ba052acedbef.png)
 
-# If you just want to test the algorithm, run 'main_online.ipynb' in the 'Algorithm' folder.
+**If you just want to test the algorithm, run 'main_online.ipynb' in the 'Algorithm' folder.**
+
 
 # How to use it ?
 1、Run the software as follows
@@ -21,15 +22,24 @@
 # Software Environment Construction Guide
 
 1、	Install anaconda
+
 2、	Install the GPU driver and the corresponding cuda version. For example: GTX1060 driver and cuda 10.2
+
 3、	Open pytorch.org and use conda to install the corresponding version. For example: conda install pytorch==1.7.0 torchvision==0.8.0 torchaudio==0.7.0 cudatoolkit=10.2 -c pytorch
+
 4、	Install Pycharm, note that the configuration environment is Python in the anaconda directory
+
 5、	Use Pycharm to test registration.py, if the operation is successful, the Pytorch environment configuration is successful
+
 6、	Copy the compiled version of OpenCV corresponding to mingw64, for example: opencv3.43_mingw_64
+
 7、	Add system environment variable: MinGW 64-bit version
 For example: C:\opencv3.43_mingw_64\install\x64\mingw\bin
+
 8、	Install the corresponding version of Qt, such as Qt 5.12.8
+
 9、	Click the .pro file to open the project, and select the Qt corresponding MINGW 64 compiler
+
 10、	Change the opencv and python paths in the .pro file as follows
 
 #Environment opencv3.43_mingw_64
