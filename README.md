@@ -2,12 +2,12 @@
 
 ![logo](https://user-images.githubusercontent.com/44628918/166712172-ba85c63d-27d2-47cd-b3fa-ba052acedbef.png)
 
-**If you just want to test the algorithm, run 'main_online.ipynb' in the 'Algorithm' folder.**
+# **If you just want to test the algorithm, run 'main_online.ipynb' in the 'Algorithm' folder.**
 
 
 # How to use it ?
 1、Run the software as follows
- ![1](https://user-images.githubusercontent.com/44628918/166712681-7ce77177-7ba8-422d-b686-e8e0fadbe108.png)
+![1](https://user-images.githubusercontent.com/44628918/166712681-7ce77177-7ba8-422d-b686-e8e0fadbe108.png)
 2、Initialize the environment, select the template file
 ![1651677209(1)](https://user-images.githubusercontent.com/44628918/166713031-52582c40-8120-4041-a2eb-473cb132de76.png)
 3、Select video data awaiting motion correction
