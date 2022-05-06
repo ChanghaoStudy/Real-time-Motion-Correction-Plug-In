@@ -7,16 +7,20 @@
 
 # How to use it ?
 1、Run the software as follows
+
 ![1](https://user-images.githubusercontent.com/44628918/166712681-7ce77177-7ba8-422d-b686-e8e0fadbe108.png)
+
 2、Initialize the environment, select the template file
 ![1651677209(1)](https://user-images.githubusercontent.com/44628918/166713031-52582c40-8120-4041-a2eb-473cb132de76.png)
+
 3、Select video data awaiting motion correction
 ![image](https://user-images.githubusercontent.com/44628918/166713330-a927ebaf-8660-47b6-8ca4-b563ca468728.png)
+
 4、Open the real-time calibration interface
 ![image](https://user-images.githubusercontent.com/44628918/166713430-e87a1d70-f5b5-4086-beb9-a0b97b94b376.png)
+
 5、Click the start button to perform real-time motion correction of the image
 ![image](https://user-images.githubusercontent.com/44628918/166713649-4cc5615d-bfa4-4a98-8e0c-e90033b4f73d.png)
-
 
 
 # Software Environment Construction Guide
