@@ -4,7 +4,8 @@
 
 # **If you just want to test the algorithm, run 'main_online.ipynb' in the 'Algorithm' folder.**
 
-#Citation
+# Citation
+
 If you use this code please cite the corresponding papers where original methods appeared
 """
 @article{li2022open,
