@@ -6,8 +6,8 @@
 
 # Citation
 
-If you use this code please cite the corresponding papers where original methods appeared
-"""
+If you use this code please cite the corresponding papers where original methods appeared.  
+```
 @article{li2022open,
   title={An Open-Source Real-Time Motion Correction Plug-In for Single-Photon Calcium Imaging of Head-Mounted Microscopy},
   author={Li, Mingkang and Liu, Changhao and Cui, Xin and Jung, Hayoung and You, Heecheon and Feng, Linqing and Zhang, Shaomin},
@@ -16,7 +16,7 @@ If you use this code please cite the corresponding papers where original methods
   year={2022},
   publisher={Frontiers}
 }
-"""
+```
 
 # How to use it ?
 1、Run the software as follows
